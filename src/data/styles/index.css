@@ -1,0 +1,142 @@
+﻿html, body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    background-color: #ecf8f5;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 1;
+
+    box-shadow: 1px 1px 3px grey;
+}
+
+img.icon {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img.icon-big {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.iconBg {
+    background-color: #08BA96;
+}
+
+.headerBg {
+    background-color: #05876D;
+}
+
+.lightBg {
+    background-color: #ecf8f5;
+}
+
+.case {
+    width: 12vh;
+    height: 12vh;
+    position: relative;
+}
+
+.separation {
+    width: 75%;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    color: lightgray;
+    position: absolute;
+    bottom: 0;
+    margin-left: 15%;
+}
+
+.no-bull {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    margin-left: 12vh;
+}
+
+.title {
+    text-align: center;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.7rem;
+}
+
+.date-and-hour {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-image: url(https://db3pap007files.storage.live.com/y4mxjgjP3Oe0Dfec7DoNpm4zPxCJOLl_-GWV1s77uSPaFpjD4QFMWT32xRyIMSKrNVCeCS7wkDfu02hHPm5DiKMdZffmEqNb9UGe24NcWUyA1e4mCdoQGrrb4k29rkFPxXG6_GIdv91wGkZEFrGY3ST9CsIM74efM_ff_LwbnCCt4TV5m-UJ5bSvwr3DXAksMl9?width=512&height=512&cropmode=none), url(https://db3pap007files.storage.live.com/y4mBqFCSorF7tf0c9VT9c-d7nvkl2LV7pw-zWPdhLaNrFCL9-nPJS1UCzz8JnwQyTYrsqLdKBOikwruhqBHCBzEiGNXUkuTKZy9E7S0mJm8E0vdv2Z_kfDqJ-pPQTbIL0pDzeXLw71Lt7ovp-sn5FiW0auHg0nx0-kVoSrxrqHNksbAZGDJBf9dMWYN37Y9FDZx?width=512&height=512&cropmode=none);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 4rem, 4rem;
+    background-position: 5% 20%, 95% 80%;
+}
+
+h1 {
+    color: #dcf7f1;
+    font-size: 4rem;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    color: #08BA96;
+    font-size: 2rem;
+    margin-bottom: 0px;
+}
+
+li.selected {
+    border-right: 0.7vh solid #05876D;
+}
+
+footer {
+    display: inline-block;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #3586ff;
+    color: white;
+    text-align: center;
+    z-index: 10;
+}
+
+footer p {
+    width: 100vw;
+    margin-bottom: 0.3rem;
+    font-size: 100%;
+}
+
+footer a {
+    color: #a0f7e6;
+}
+
+.thermometer {
+    font-size: 1.5em;
+    color: #05876D;
+}
+
+.thermometer p {
+    margin: 0.5em auto 0px 2vw;
+}
+
+.temperature-display {
+    font-size: 25vmin;
+    text-align: center;
+    font-weight: 700;
+    padding: 0px 0px 0px 0px;
+}

@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html lang="fr">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/waves.css" />
+
+    <title>Accueil - Station piscine</title>
+    <link rel="icon" href="../resources/favicon_96.ico" />
+
+    <script src="../scripts/parameters.js"></script>
+</head>
+<body>
+    <div class="sidebar" title="sidebar">
+        <div class="case iconBg" title="Icône principale">
+            <img class="icon-big" src="../resources/favicon_96.ico" />
+        </div>
+        <ul class="no-bull" title="Pages">
+            <li class="case selected">
+                <a data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Accueil">
+                    <div class="case">
+                        <img src="https://db3pap007files.storage.live.com/y4mJ6d66fXKvY2CHsNdxrH87ceS_c40bn3lCLVz5l6X_gFkIxSLtviFcboViGfydvbkmDF58fkKVYyBIK7zN2yXSbZYUJ65ce2sv1UKRKPtiBPDHA3513lJYHih-GDiom9UakMuXs8UDrbuinVyDThRQunpXV6hVHlnZfNpFo1vdXX-7F2vFgBwnxjV3fNKtRbi?width=512&height=512&cropmode=none" class="icon" />
+                    </div>
+                </a>
+                <div class="separation"></div>
+            </li>
+            <li class="case">
+                <a href="./charts.html" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Graphiques">
+                    <div class="case">
+                        <img src="https://db3pap007files.storage.live.com/y4mIg3L3AOfeIzv2FyHiU-mfneyTQRXCVOmAEVkIByrisnmVDRVOSqEvaycGZj3Clhx4T45EsA__G1RCNdG_FJtkhccwA7QD4xPhC54EVxyd54e9TYJVJQixDToxkOJSKh1qEYoGhlxku8U1eUlCGHTuv8AIJheYLy20zvoctsqMrZUs9emx6BiX0GM0iLyrP5r?width=512&height=512&cropmode=none" class="icon" />
+                    </div>
+                </a>
+                <div class="separation"></div>
+            </li>
+            <li class="case">
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Données">
+                    <div class="case">
+                        <img src="https://db3pap007files.storage.live.com/y4mBP0f7ZDsCqV46gSQ8zm_r1lP8Pzl6Ihau29E61ytPQc7qf1gjFxyvXwSafxd4gFExYVcrUyRNubdbERknoBgxYpicFwih-W1_01ATUTm3jLeYC7E_-f9HJZ_lBusPE3WNYqmrammxEa_NvrlXPdhB1R2BGHTM4kRo9jOBWWrGi0RLb7yyu-V9_wwhhE4E0Wg?width=512&height=512&cropmode=none" class="icon" />
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="title headerBg" name="title">
+            <h1>Station piscine</h1>
+        </div>
+
+        <div class="lightBg date-and-hour">
+            <h2 style="text-align: left">
+                Nous sommes <span id="date"></span>,
+            </h2>
+            <h2 style="text-align: right">
+                il est <span id="hour"></span>
+            </h2>
+        </div>
+
+        <div title="Thermometre" class="thermometer">
+            <p>
+                Température de la piscine :
+            </p>
+            <div class="temperature-display">
+                <span id="temperature">00</span>°C
+            </div>
+        </div>
+        <p style="text-align: right; z-index: 10">
+            <em>Dernière actualisation à <span id="lastUpdateTime">xx</span>.</em>
+        </p>
+
+    </div>
+
+    <div class="water">
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+        <div class="wave wave3"></div>
+        <div class="wave wave4"></div>
+    </div>
+
+
+
+    <footer>
+        <p>
+            Les icônes utilisées ont été faites par
+            <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect" target="_blank">Pixel perfect</a>
+            et
+            <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware" target="_blank">Good Ware</a>
+            depuis
+            <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">www.flaticon.com</a>
+        </p>
+
+        <p>
+            Pour toute demande, merci de me contacter à <a href="mailto:juju.joly@free.fr" title="Contact Mail" target="_blank">juju.joly@free.fr</a>
+        </p>
+    </footer>
+
+    <script type="text/javascript" src="../scripts/thermometer.js"></script>
+    <script type="text/javascript" src="../scripts/date-hour.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="../scripts/sidebars.js"></script>
+</body>
+</html>
